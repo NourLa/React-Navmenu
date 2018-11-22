@@ -1,0 +1,19 @@
+
+li a:hover, .dropdown:hover .dropbtn {
+color: rgba(96, 96, 255, 0.932);  
+}
+li  a, .dropbtn{ color: black; text-decoration: none; font-size: 22px; font-weight: 400;  text-align: center;
+    padding: 0px 20px; border-bottom: 2px solid rgba(96, 96, 255, 0.932); }
+.unordred-list{display: flex; list-style: none; }
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px; 
+    border: 2px solid rgba(96, 96, 255, 0.932);  
+}
+.dropdown-content a {    font-size: 16px;font-weight: 400;   padding: 6px 0px; border:none;  }
+.dropdown:hover .dropdown-content {
+    display: flex; flex-direction: column; 
+    color: rgb(96, 96, 255);  
+
+}
